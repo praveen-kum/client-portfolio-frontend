@@ -1,0 +1,37 @@
+/* body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+} */
+
+/* tailwind.css */
+@import 'tailwindcss/base';
+@import 'tailwindcss/components';
+@import 'tailwindcss/utilities';
+
+
+[data-aos='rotate-round'] {
+  transform: rotate(-360deg);
+  transition-property: transform;
+}
+[data-aos='rotate-round'].aos-animate {
+  transform: rotate(0deg);
+  transition-duration: 4000ms;
+}
+
+.stamp{
+  width: 50px;
+  height: 50px;
+}
+/* .circle-text{
+  -webkit-animation: spin 12s linear infinite;
+  animation: spin 12s linear infinite;
+} */

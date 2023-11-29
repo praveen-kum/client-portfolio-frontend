@@ -1,0 +1,28 @@
+{
+  "role": [
+    {
+      "id": 1,
+      "title": "python developer"
+    },
+    {
+      "id": 2,
+      "title": "backend developer"
+    }
+  ],
+  "name": [
+    {
+      "name": "python",
+      "name2": "backend",
+      "id": 1
+    }
+  ],
+  "resume": [
+    {
+      "id": 1,
+      "formData": ""
+    },
+    {
+      "id": 2
+    }
+  ]
+}
